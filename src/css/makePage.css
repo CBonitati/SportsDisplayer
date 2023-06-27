@@ -16,10 +16,32 @@ body {
     height: 100vh;
   }
   
-  .box {
-    background-color: white;
-    height: 500px;
-    width: 500px;
-    border: 1px solid black;
-    margin: 10px;
-  }
+.box {
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+}
+
+.table th {
+  border-bottom: 2px solid black;
+
+}
+
+.table td {
+  border-bottom: 1px solid black;
+}
+
+.table th,
+.table td {
+  width: 33.33%;
+
+}

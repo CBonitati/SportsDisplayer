@@ -27,19 +27,28 @@ function MainPage() {
 
       <div className="box-container">
         <div className="box box1">
-            {gameData.length > 0 ? (
-            gameData.map((game, index) => (
-            <div key={index}>
-              <table>
-                <tr>Team: {game.teamName}</tr>
-                <tr>Date: {game.date}</tr>
-                <tr>Time: {game.time}</tr>
-              </table>
-            </div>
-    ))
-  ) : (
-    <p>No games found.</p>
-  )}
+        {gameData.length > 0 ? (
+          <table className="table">
+            <thead>
+              <tr>
+                <th>Team</th>
+                <th>Date</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              {gameData.map((game, index) => (
+                <tr key={index}>
+                  <td>{game.teamName}</td>
+                  <td>{game.date}</td>
+                  <td>{game.time}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <p>No games found.</p>
+        )}
         </div>
         <div className="box box2">
             
