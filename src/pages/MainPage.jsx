@@ -85,15 +85,6 @@ function MainPage() {
               <p>No games found for Box 1 or Data not loaded properly</p>
             </Box>
           </div>
-          <div>
-            <input
-              placeholder="Enter Champions League Team?"
-            />
-            <button>Select</button>
-            <Box>
-              <p>No games found for Box 1 or Data not loaded properly</p>
-            </Box>
-          </div>
           
       </div>
 
