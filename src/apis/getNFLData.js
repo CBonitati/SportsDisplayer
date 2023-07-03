@@ -23,7 +23,29 @@ const teams = [
     { teamName: 'kansas city chiefs', code: 'kc', name: 'kansas-city-chiefs', backgroundColor: '#d90711', labelFontColor: '#000000' },
     { teamName: 'las vegas raiders', code: 'lv', name: 'las-vegas-raiders', backgroundColor: '#000000', labelFontColor: '#ffffff' },
     { teamName: 'los angeles chargers', code: 'lac', name: 'los-angeles-chargers', backgroundColor: '#d90711', labelFontColor: '#ffffff' },
-    
+    { teamName: 'dallas cowboys', code: 'dal', name: 'dallas-cowboys', backgroundColor: '#0b0c45', labelFontColor: '#000000' },
+    { teamName: 'new york giants', code: 'nyg', name: 'new-york-giants', backgroundColor: '#030457', labelFontColor: '#FFFFFF' },
+    { teamName: 'philadelphia eagles', code: 'phi', name: 'philadelphia-eagles', backgroundColor: '#012927', labelFontColor: '#FFFFFF' },
+    { teamName: 'washington commanders', code: 'wsh', name: 'washington-commanders', backgroundColor: '#4a0101', labelFontColor: '#FFFFFF' },
+    { teamName: 'detroit lions', code: 'det', name: 'detroit-lions', backgroundColor: '#035aa1', labelFontColor: '#000000' },
+    { teamName: 'green bay packers', code: 'gb', name: 'green-bay-packers', backgroundColor: '#012b04', labelFontColor: '#FFFFFF' },
+    { teamName: 'minnesota vikings', code: 'min', name: 'minnesota-vikings', backgroundColor: '#36056e', labelFontColor: '#FFFFFF' },
+    { teamName: 'atlanta falcons', code: 'atl', name: 'atlanta-vikings', backgroundColor: '#700a04', labelFontColor: '#FFFFFF' },
+    { teamName: 'carolina pathers', code: 'car', name: 'carolina-panthers', backgroundColor: '#0473db', labelFontColor: '#000000' },
+    { teamName: 'new orleans saints', code: 'no', name: 'new-orleans-saints', backgroundColor: '#856d2d', labelFontColor: '#000000' },
+    { teamName: 'tampa bay buccaneers', code: 'tb', name: 'tampa-bay-buccaneers', backgroundColor: '#700602', labelFontColor: '#FFFFFF' },
+    { teamName: 'arizona cardinals', code: 'az', name: 'arizona-cardinals', backgroundColor: '#610502', labelFontColor: '#FFFFFF' },
+    { teamName: 'los angelas rams', code: 'lar', name: 'los-angelas-rams', backgroundColor: '#142380', labelFontColor: '#FFFFFF' },
+    { teamName: 'san francisco 49ers', code: 'sf', name: 'san-francisco-49ers', backgroundColor: '#8a0406', labelFontColor: '#FFFFFF' },
+    { teamName: 'seattle seahawks', code: 'sea', name: 'seattle-seahawks', backgroundColor: '#16781c', labelFontColor: '#000000' },
+
+
+
+
+
+
+
+
   ];
 
 // Function to retrieve Buffalo Bills game data
