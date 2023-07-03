@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import "../css/makePage.css";
 import Box from "../components/BoxComponent";
@@ -17,9 +17,9 @@ function MainPage() {
     setSelectedTeam(event.target.value);
   };
 
-  const fetchGameData = useCallback(() => {
+  const fetchGameData = () => {
     if (!selectedTeam) {
-      return;
+      return; // If selectedTeam is empty, return without making the API call
     }
 
     axios
@@ -28,23 +28,17 @@ function MainPage() {
         console.log(response.data);
         const { backgroundColor, gameData, labelFontColor } = response.data;
         setSelectedColor(backgroundColor);
-        setLabelFontColor(labelFontColor)
+        setLabelFontColor(labelFontColor);
         setGameData(gameData);
-        
       })
       .catch((error) => {
         console.error(error);
       });
-  }, [selectedTeam]);
+  };
 
   const handleSelectClick = () => {
     fetchGameData();
   };
-
-  useEffect(() => {
-    fetchGameData();
-  }, [fetchGameData]);
-
 
 
   return (
